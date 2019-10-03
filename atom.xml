@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/kevinsun2017/ruochen.github.io</id>
+    <id>https://liangdishu.github.com</id>
     <title>Hve Notes</title>
-    <updated>2019-08-26T01:13:43.351Z</updated>
+    <updated>2019-10-03T08:26:29.897Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/kevinsun2017/ruochen.github.io"/>
-    <link rel="self" href="https://github.com/kevinsun2017/ruochen.github.io/atom.xml"/>
+    <link rel="alternate" href="https://liangdishu.github.com"/>
+    <link rel="self" href="https://liangdishu.github.com/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://github.com/kevinsun2017/ruochen.github.io/images/avatar.png</logo>
-    <icon>https://github.com/kevinsun2017/ruochen.github.io/favicon.ico</icon>
+    <logo>https://liangdishu.github.com/images/avatar.png</logo>
+    <icon>https://liangdishu.github.com/favicon.ico</icon>
     <rights>All rights reserved 2019, Hve Notes</rights>
     <entry>
         <title type="html"><![CDATA[测试]]></title>
-        <id>https://github.com/kevinsun2017/ruochen.github.io/post/ce-shi</id>
-        <link href="https://github.com/kevinsun2017/ruochen.github.io/post/ce-shi">
+        <id>https://liangdishu.github.com/post/ce-shi</id>
+        <link href="https://liangdishu.github.com/post/ce-shi">
         </link>
         <updated>2019-01-16T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>测试</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Hve Notes]]></title>
-        <id>https://github.com/kevinsun2017/ruochen.github.io/post/hello-hve-notes</id>
-        <link href="https://github.com/kevinsun2017/ruochen.github.io/post/hello-hve-notes">
+        <id>https://liangdishu.github.com/post/hello-hve-notes</id>
+        <link href="https://liangdishu.github.com/post/hello-hve-notes">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>👏 欢迎使用 <strong>Hve Notes</strong> ！</p>
