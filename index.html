@@ -1,152 +1,124 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hve Notes</title>
-<meta name="description" content="温故而知新">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
 <link rel="shortcut icon" href="https://ruochen.github.io/favicon.ico">
 <link rel="stylesheet" href="https://ruochen.github.io/styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://ruochen.github.io">
-        <img src="https://ruochen.github.io/images/avatar.png" class="site-logo">
-        <h1 class="site-title">Hve Notes</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://ruochen.github.io">
+  <img class="avatar" src="https://ruochen.github.io/images/avatar.png" alt="" width="80px" height="80px">
+  </a>
+  <h1 class="site-title">
+    Hve Notes
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
       
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+  </div>
+</div>
+
+    
+        <div class="post-container">
+  
+    <article class="post">
+      <a href="https://ruochen.github.io/post/shang-hai-shou-li-xian-zhu-shou-ru-xing-an-xuan-pan-she-shi-nan-zi-bei-pan-liu-ge-yue">
+        <h2 class="post-title">上海首例&#34;咸猪手&#34;入刑案宣判 涉事男子被判六个月</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-10-15 18:24:58 ·
+        </time>
         
-          <a href="/" class="site-nav">
-            首页
+      </div>
+      
+      <p class="post-abstract"></p>
+    </article>
+  
+    <article class="post">
+      <a href="https://ruochen.github.io/post/du-jia-jie-mi-a-li-xiao-cheng-xu-de-yi-yun-duo-duan-kan-zhe-pian-jiu-gou-liao">
+        <h2 class="post-title">独家揭秘：阿里小程序的一云多端！看这篇就够了！</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-10-03 16:31:02 ·
+        </time>
+        
+      </div>
+      
+      <p class="post-abstract"></p>
+    </article>
+  
+    <article class="post">
+      <a href="https://ruochen.github.io/post/ce-shi">
+        <h2 class="post-title">测试</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-01-17 00:00:00 ·
+        </time>
+        
+          <a href="https://ruochen.github.io/tag/hvenotes" class="post-tag">
+            # HveNotes
           </a>
         
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="site-description">
-      温故而知新
-    </div>
-    <div class="site-footer">
-      Powered by Hve Notes
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://ruochen.github.io/post/shang-hai-shou-li-xian-zhu-shou-ru-xing-an-xuan-pan-she-shi-nan-zi-bei-pan-liu-ge-yue">
-                  <h2 class="post-title">上海首例&#34;咸猪手&#34;入刑案宣判 涉事男子被判六个月</h2>
-                </a>
-                <div class="post-date">
-                  2019-10-15
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://ruochen.github.io/post/du-jia-jie-mi-a-li-xiao-cheng-xu-de-yi-yun-duo-duan-kan-zhe-pian-jiu-gou-liao">
-                  <h2 class="post-title">独家揭秘：阿里小程序的一云多端！看这篇就够了！</h2>
-                </a>
-                <div class="post-date">
-                  2019-10-03
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://ruochen.github.io/post/ce-shi">
-                  <h2 class="post-title">测试</h2>
-                </a>
-                <div class="post-date">
-                  2019-01-17
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://ruochen.github.io/post/hello-hve-notes">
-                  <h2 class="post-title">Hello Hve Notes</h2>
-                </a>
-                <div class="post-date">
-                  2018-12-12
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-
-          <div class="pagination-container">
-  
-  
-</div>
-
-        </div>
       </div>
-    </div>
+      
+      <p class="post-abstract"></p>
+    </article>
+  
+    <article class="post">
+      <a href="https://ruochen.github.io/post/hello-hve-notes">
+        <h2 class="post-title">Hello Hve Notes</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2018-12-12 00:00:00 ·
+        </time>
+        
+          <a href="https://ruochen.github.io/tag/hvenotes" class="post-tag">
+            # HveNotes
+          </a>
+        
+      </div>
+      
+      <p class="post-abstract"></p>
+    </article>
+  
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+        <div class="pagination-container">
+  
+  
+</div>
 
-<script type="application/javascript">
+    
+        <div class="site-footer">
+  Powered by Hve Notes
+</div>
 
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>
